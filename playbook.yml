@@ -3,11 +3,11 @@
   become: yes
 
   vars:
-    repo_url: "https://github.com/CloudTechDevOps/2nd10WeeksofCloudOps-main.git"
-    app_path: "/root/veera/"
+    repo_url: "https://github.com/prakashanand084/3t-project.git"
+    app_path: "/root/anand/"
     frontend_image: "frontend-app:latest"
     backend_image: "backend-app:latest"
-    rds_host: "database-1.cr4i2amuwzm0.us-east-1.rds.amazonaws.com"
+    rds_host: "database-1.cz0ogmis8lyn.us-east-1.rds.amazonaws.com"
     rds_user: "admin"
     rds_password: "Cloud123"
     rds_port: "3306"
